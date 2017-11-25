@@ -10,7 +10,7 @@ export class HomePage {
 
   Productos: Array<any> = [{
     nombreProducto: "Polera",
-    descripcion: "Polera traida del extranjero",
+    descripcion: "Polera Italiana",
     img: "assets/img/polera.png",
     stock: 10,
     precio: 3900,
@@ -19,7 +19,7 @@ export class HomePage {
   },
   {
     nombreProducto: "Zapatos",
-    descripcion: "Zapatos formales traidos directamente de italia",
+    descripcion: "Zapatos de italia",
     img: "assets/img/tacos.png",
     stock: 10,
     precio: 3900,
