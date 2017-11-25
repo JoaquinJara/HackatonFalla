@@ -10,21 +10,21 @@ export class HomePage {
 
   Productos: Array<any> = [{
     nombreProducto: "Polera",
-    descripcion: "Tallas s-m-xl",
+    descripcion: "Polera traida del extranjero",
     img: "assets/img/polera.png",
     stock: 10,
     precio: 3900,
-    caracteristicas: "",
-    modelos: ""
+    caracteristicas: "Elastica, disintos modelos",
+    modelos: "X, Y, Z"
   },
   {
     nombreProducto: "Zapatos",
-    descripcion: "Tallas 10-12-14",
+    descripcion: "Zapatos formales traidos directamente de italia",
     img: "assets/img/tacos.png",
     stock: 10,
     precio: 3900,
-    caracteristicas: "",
-    modelos: ""
+    caracteristicas: "Filtro de aire, cuero",
+    modelos: "Geox, XXX "
   },
   {
     nombreProducto: "Televisor",
@@ -32,9 +32,9 @@ export class HomePage {
     img: "assets/img/lcd.png",
     stock: 10,
     precio: 3900,
-    caracteristicas: "",
-    modelos: ""
-  },
+    caracteristicas: "pantalla ultra delgada, infrarojo, wifi",
+    modelos: "LG, Panasonic"
+  }
  
 ]
   constructor(public navCtrl: NavController) {

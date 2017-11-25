@@ -22,31 +22,110 @@ export class ProductosPage {
   initializeItems() {
     this.items = [{
       nombreProducto: "Polera",
-      descripcion: "Tallas s-m-xl",
+      descripcion: "Polera traida del extranjero",
       img: "assets/img/polera.png",
-      stock: 10,
-      precio: 3900,
-      caracteristicas: "",
-      modelos: ""
+      stock: 15,
+      precio: 13900,
+      caracteristicas: "Elastica, disintos modelos",
+      modelos: "X, Y, Z"
     },
     {
       nombreProducto: "Zapatos",
-      descripcion: "Tallas 10-12-14",
+      descripcion: "Zapatos formales traidos directamente de italia",
       img: "assets/img/tacos.png",
-      stock: 10,
-      precio: 3900,
-      caracteristicas: "",
-      modelos: ""
+      stock: 2,
+      precio: 900,
+      caracteristicas: "Filtro de aire, cuero",
+      modelos: "Geox, XXX "
     },
     {
       nombreProducto: "Televisor",
       descripcion: "LCD pantalla plana",
       img: "assets/img/lcd.png",
-      stock: 10,
-      precio: 3900,
+      stock: 120,
+      precio: 7900,
+      caracteristicas: "pantalla ultra delgada, infrarojo, wifi",
+      modelos: "LG, Panasonic"
+    },
+    {
+      nombreProducto: "Chaqueta",
+      descripcion: "",
+      img: "",
+      stock: 210,
+      precio: 4000,
       caracteristicas: "",
       modelos: ""
     },
+    {
+      nombreProducto: "Guitarra",
+      descripcion: "",
+      img: "",
+      stock: 89,
+      precio: 9000,
+      caracteristicas: "",
+      modelos: ""
+    },
+    {
+      nombreProducto: "Auto",
+      descripcion: "",
+      img: "",
+      stock: 45,
+      precio: 999999999,
+      caracteristicas: "",
+      modelos: ""
+    },{
+      nombreProducto: "Bajo",
+      descripcion: "",
+      img: "",
+      stock: 45,
+      precio: 9990,
+      caracteristicas: "",
+      modelos: ""
+    },
+    {
+      nombreProducto: "Falda",
+      descripcion: "",
+      img: "",
+      stock: 132,
+      precio: 6990,
+      caracteristicas: "",
+      modelos: ""
+    },
+    {
+      nombreProducto: "Calzas",
+      descripcion: "",
+      img: "",
+      stock: 7,
+      precio: 100,
+      caracteristicas: "",
+      modelos: ""
+    },{
+      nombreProducto: "Gorro",
+      descripcion: "",
+      img: "",
+      stock: 1234,
+      precio: 2340,
+      caracteristicas: "",
+      modelos: ""
+    },
+    {
+      nombreProducto: "Lentes",
+      descripcion: "",
+      img: "",
+      stock: 766,
+      precio: 4560,
+      caracteristicas: "",
+      modelos: ""
+    },
+    {
+      nombreProducto: "Computador",
+      descripcion: "",
+      img: "",
+      stock: 976,
+      precio: 270000,
+      caracteristicas: "",
+      modelos: ""
+    }
    
   ];
   }
