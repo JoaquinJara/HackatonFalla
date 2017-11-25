@@ -5,7 +5,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-import { BusquedaPage } from '../pages/busqueda/busqueda';
 import { ProductosPage } from '../pages/productos/productos';
 import { OfertasPage } from '../pages/ofertas/ofertas';
 import { MuroPage } from '../pages/muro/muro';
@@ -28,7 +27,6 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
       { title: 'Productos', component: ProductosPage},
-      { title: 'Busqueda', component: BusquedaPage},
       { title: 'Ofertas', component: OfertasPage},
       { title: 'Muro', component: MuroPage}
     ];
