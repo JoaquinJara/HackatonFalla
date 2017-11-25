@@ -9,6 +9,7 @@ import { BusquedaPage } from '../pages/busqueda/busqueda';
 import { ProductosPage } from '../pages/productos/productos';
 import { OfertasPage } from '../pages/ofertas/ofertas';
 import { MuroPage } from '../pages/muro/muro';
+import { DetallePage } from '../pages/detalle/detalle';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BusquedaPage,
     ProductosPage,
     OfertasPage,
-    MuroPage
+    MuroPage,
+    DetallePage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BusquedaPage,
     ProductosPage,
     OfertasPage,
-    MuroPage
+    MuroPage,
+    DetallePage
   ],
   providers: [
     StatusBar,

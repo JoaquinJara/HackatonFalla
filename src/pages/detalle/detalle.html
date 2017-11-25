@@ -1,0 +1,39 @@
+<!--
+  Generated template for the DetallePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Detalle {{ item.nombreProducto }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <ion-card-header>
+        <img src= "{{item.img}}"/>
+    </ion-card-header>
+    <ion-card-content>
+        <ion-item>
+          Producto: {{ item. nombreProducto}}
+        </ion-item>
+        <ion-item>
+            Descripcion: {{ item.descripcion}}
+        </ion-item>
+        <ion-item>
+           Modelos: {{item.modelos}}
+        </ion-item>
+        <ion-item>
+            Precio: ${{item.precio}}
+        </ion-item>
+        <ion-item>
+            Stock: {{item.stock}}
+        </ion-item>
+        <ion-item>
+            Caracteristicas: {{item.caracteristicas}}
+        </ion-item>
+    </ion-card-content>
+</ion-content>
+

@@ -10,22 +10,10 @@
 
 <ion-content class="card-page-home">
   
-    <ion-card>
-      <img src="assets/img/polera.png"/>
-      <div class="card-title">Polera</div>
-      <div class="card-subtitle">Tallas s-m-xl</div>
-    </ion-card>
-  
-    <ion-card>
-      <img src="assets/img/tacos.png"/>
-      <div class="card-title">Zapatos</div>
-      <div class="card-subtitle">Tallas 10-12-14</div>
-    </ion-card>
-  
-    <ion-card>
-      <img src="assets/img/lcd.png"/>
-      <div class="card-title">Televisor</div>
-      <div class="card-subtitle">LCD pantalla plana</div>
+    <ion-card button ion-item *ngFor="let item of Productos" (click)= "abrirDetalle(item)">
+      <img src= "{{item.img}}"/>
+      <div class="card-title">{{ item.nombreProducto }}</div>
+      <div class="card-subtitle">{{ item.descripcion }}</div>
     </ion-card>
   
 </ion-content>
