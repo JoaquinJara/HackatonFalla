@@ -1,0 +1,8 @@
+{
+  "name": "HackFalabella",
+  "app_id": "f9adbd78",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
